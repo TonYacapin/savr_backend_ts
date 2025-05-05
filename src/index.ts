@@ -3,6 +3,7 @@ import mongoose from 'mongoose';
 import userRoutes from './users/users.routes';
 import petRoutes from './pets/pets.routes';
 import pveRoutes from './petsvsenvironment/pve.routes';
+import savingsRoutes from './savings/savings.routes';
 import dotenv from 'dotenv';
 dotenv.config();
 
@@ -23,6 +24,7 @@ mongoose
 app.use('/users', userRoutes);
 app.use('/pets', petRoutes);
 app.use('/pve', pveRoutes);
+app.use('/savings', savingsRoutes);
 
 const PORT = 3000;
 
