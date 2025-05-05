@@ -2,7 +2,18 @@ import Savings, { ISavings } from './savings.model';
 import Pet from '../pets/pets.model';
 
 // List of available pet types (emojis)
-const petTypes = ['🐶', '🐱', '🐰', '🦊', '🐻', '🐼', '🐨', '🐯', '🦁', '🐸'];
+// List of available pet types (emojis)
+const petTypes = [
+    '🐶', '🐱', '🐰', '🦊', '🐻', '🐼', '🐨', '🐯', '🦁', '🐸', // Original list
+    '🐔', '🐧', '🐦', '🐤', '🦆', '🦅', '🦉', '🦇', '🐺', '🐗', // Birds and wild animals
+    '🐴', '🦄', '🐝', '🐛', '🦋', '🐌', '🐞', '🐜', '🦂', '🐢', // Insects and reptiles
+    '🐍', '🦎', '🦖', '🦕', '🐙', '🦑', '🦐', '🦀', '🐡', '🐠', // Dinosaurs and aquatic animals
+    '🐟', '🐬', '🐳', '🐋', '🦈', '🐊', '🐅', '🐆', '🦓', '🦍', // More aquatic and wild animals
+    '🦧', '🦣', '🦛', '🦏', '🐪', '🐫', '🦒', '🦘', '🦥', '🦦', // Exotic animals
+    '🦨', '🦡', '🐘', '🐃', '🐂', '🐄', '🐎', '🐖', '🐏', '🐑', // Farm animals
+    '🦙', '🐐', '🦌', '🐕', '🐩', '🐈', '🐓', '🦃', '🦜', '🦚', // Domesticated animals and birds
+    '🦢', '🦩', '🕊️', '🐇', '🐿️', '🦔' // Small animals and birds
+];
 
 // List of possible special abilities
 const specialAbilities = [
