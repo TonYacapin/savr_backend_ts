@@ -4,6 +4,7 @@ import userRoutes from './users/users.routes';
 import petRoutes from './pets/pets.routes';
 import pveRoutes from './petsvsenvironment/pve.routes';
 import savingsRoutes from './savings/savings.routes';
+import giftpetsRoutes from './giftpets/giftpets.routes';
 import dotenv from 'dotenv';
 dotenv.config();
 
@@ -25,6 +26,7 @@ app.use('/users', userRoutes);
 app.use('/pets', petRoutes);
 app.use('/pve', pveRoutes);
 app.use('/savings', savingsRoutes);
+app.use('/giftpets', giftpetsRoutes);
 
 const PORT = 3000;
 
